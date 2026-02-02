@@ -46,4 +46,10 @@ This document outlines the successful configuration of a Model Context Protocol 
 - `examples/fibonacci.py`: Validated output proving the rules work.
 - `REPORT.md`: This comprehensive documentation of the challenge.
 
+## 7. Post-Feedback Optimizations
+Following an internal review of the initial setup, I performed the following "Deep Dive" improvements:
+- **Trace Logging:** Captured actual JSON-like traces of the agent calling `log_passage_time_trigger`.
+- **Iterative Prompting:** Documented the shift from standard Boris Cherny rules to a personalized set that enforces Big-O notation and automated test commands.
+- **Relevant Tooling:** Developed a Python-based MCP validator (`tools/mcp_config_validator.py`) to ensure environment integrity.
+
 ***
