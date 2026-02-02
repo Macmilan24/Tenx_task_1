@@ -1,0 +1,3 @@
+MCP log_passage_time_trigger: success
+Rule optimization phase logging is complete.
+No managed servers are currently listed by the proxy.
